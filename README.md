@@ -4,7 +4,7 @@
 - Directory Configration
   - `src`: implemented codes
   - `test`: test of each codes
-
+- When you want to do unittest: `python3 -m unittest discover tests`
 ## Contents (Now in Progress...)
 
 - Algorithms
