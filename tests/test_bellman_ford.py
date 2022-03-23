@@ -37,10 +37,8 @@ class TestBellmanFord(unittest.TestCase):
         start = 0
         _, prev = bellman_ford(edges, num_node, start)
         path_to_6 = get_bellman_ford_path(prev, 6)
-        print(path_to_6)
         self.assertEqual(path_to_6, [0, 2, 5, 4, 6])
         path_to_0 = get_bellman_ford_path(prev, 0)
-        print(path_to_0)
         self.assertEqual(path_to_0, [0])
 
     def test_bellman_ford_negative(self):

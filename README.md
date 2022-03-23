@@ -18,6 +18,9 @@
 		- Dijkstra
 		- Warshall Floyd
         - Bellman Ford
+    - Mimimum Spanning Tree
+        - Prim
+        - Kruskal
 - Data Stracture
   - Binary Search Tree
   - Heap

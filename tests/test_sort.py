@@ -2,7 +2,7 @@ from src import selection_sort, bubble_sort, insertion_sort, merge_sort, quick_s
 import unittest
 
 
-class TestHeap(unittest.TestCase):
+class TestSort(unittest.TestCase):
     def test_selection_sort(self):
         x = [8, 1, 4, 2, 3, 9, 3, -1]
         sorted_x = [-1, 1, 2, 3, 3, 4, 8, 9]
