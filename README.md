@@ -17,6 +17,7 @@
 	- Miminum path
 		- Dijkstra
 		- Warshall Floyd
+        - Bellman Ford
 - Data Stracture
   - Binary Search Tree
   - Heap
