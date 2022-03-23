@@ -8,12 +8,15 @@
 ## Contents (Now in Progress...)
 
 - Algorithms
-  - Sort
-  - Selection Sort
-  - Bubble Sort
-  - Insertion Sort
-  - Merge Sort
-  - Queck Sort
+	- Sort
+		- Selection Sort
+		- Bubble Sort
+		- Insertion Sort
+		- Merge Sort
+		- Queck Sort
+	- Miminum path
+		- Dijkstra
+		- Warshall Floyd
 - Data Stracture
   - Binary Search Tree
   - Heap
