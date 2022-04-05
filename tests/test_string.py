@@ -1,11 +1,11 @@
-from src import cls
+from src import lcs
 import unittest
 
 
 class TestString(unittest.TestCase):
     def test_lcm(self):
-        self.assertEqual(cls("aaabbbc", "xaacx"), "aac")
-        self.assertEqual(cls("tokyo", "kyoto"), "kyo")
+        self.assertEqual(lcs("aaabbbc", "xaacx"), "aac")
+        self.assertEqual(lcs("tokyo", "kyoto"), "kyo")
 
 
 if __name__ == "__main__":

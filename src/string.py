@@ -1,7 +1,7 @@
-# cls: calculate Common Longest Subsequence of two strings
+# cls: calculate Longest Common Subsequence of two strings
 # e.g.) cls("aaabbbc", "xaacx") -> "aac"
 # time complexity: O(len(x)len(y))
-def cls(x, y):
+def lcs(x, y):
     lx, ly = len(x), len(y)
     if lx == 0 or ly == 0:
         return ""
@@ -26,3 +26,18 @@ def cls(x, y):
                 j -= 1
     return res
 
+
+def lcm(s1, s2):
+    l1 = len(s1)
+    l2 = len(s2)
+    dp = [[0 for i in range(l2 + 1)] for j in range(l1 + 1)]
+    mx = -1
+    pos = -1
+    for i in range(1, l1 + 1):
+        for j in range(1, l2 + 1):
+            if s1[i - 1] == s2[j - 1]:
+                dp[i][j] = dp[i - 1][j - 1] + 1
+                if mx < dp[i][j]:
+                    mx = dp[i][j]
+                    pos = i
+    return s1[pos - mx:pos]
