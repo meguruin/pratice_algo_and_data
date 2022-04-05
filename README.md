@@ -28,6 +28,8 @@
         - eratosthenes_sieve
         - divisor
         - prime_decomposition
+    - String
+        - LCM (Longest Common String)
 - Data Stracture
   - Binary Search Tree
   - Heap

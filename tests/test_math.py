@@ -29,3 +29,6 @@ class TestMath(unittest.TestCase):
         ans = [2, 2, 3]
         self.assertEqual(prime_decomposition(n), ans)
 
+
+if __name__ == "__main__":
+    unittest.main()
