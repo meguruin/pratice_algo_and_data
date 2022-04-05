@@ -21,6 +21,13 @@
     - Mimimum Spanning Tree
         - Prim
         - Kruskal
+    - Math
+        - gcd
+        - lcm
+        - is_prime
+        - eratosthenes_sieve
+        - divisor
+        - prime_decomposition
 - Data Stracture
   - Binary Search Tree
   - Heap
