@@ -29,7 +29,8 @@
         - divisor
         - prime_decomposition
     - String
-        - LCM (Longest Common String)
+        - Longest Common Subsequence
+        - Longest Common Substring
 - Data Stracture
   - Binary Search Tree
   - Heap
