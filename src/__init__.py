@@ -9,3 +9,4 @@ from src.minimum_spanning_tree import prim, kruskal
 from src.math import gcd, lcm, is_prime, eratosthenes_sieve, divisor, prime_decomposition
 from src.string import lc_subsequence, lc_substring
 from src.segment_tree import SegmentTree
+from src.fenwick_tree import FenwickTree

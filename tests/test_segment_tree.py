@@ -1,4 +1,4 @@
-from src import SegmentTree, segment_tree
+from src import SegmentTree
 import unittest
 
 
@@ -24,6 +24,7 @@ class TestHeap(unittest.TestCase):
         self.assertEqual(self.tree1.query(1, 3), 102)
         self.tree2.update(2, 100)
         self.assertEqual(self.tree2.query(1, 8), 2)
+
 
 if __name__ == "__main__":
     unittest.main()

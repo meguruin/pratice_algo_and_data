@@ -36,3 +36,4 @@
     - Heap
     - Union-Find Tree
     - Segment Tree
+    - Fenwick Tree (Binary Indexed Tree)
