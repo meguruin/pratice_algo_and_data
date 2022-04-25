@@ -32,6 +32,7 @@
         - Longest Common Subsequence
         - Longest Common Substring
 - Data Stracture
-  - Binary Search Tree
-  - Heap
-  - Union-Find Tree
+    - Binary Search Tree
+    - Heap
+    - Union-Find Tree
+    - Segment Tree
