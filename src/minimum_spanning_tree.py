@@ -8,7 +8,6 @@
     O(ElogV)
 """
 import heapq
-from multiprocessing import connection
 from src import UnionFind
 
 def prim(edges, num_nodes):
